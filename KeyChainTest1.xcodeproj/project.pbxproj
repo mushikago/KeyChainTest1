@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44350989C20F0302410E5346 /* libPods-KeyChainTest1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA86CE5D0F3CE3CE82622AF6 /* libPods-KeyChainTest1.a */; };
+		CC2AA1891BE3181600BB6998 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2AA1881BE3181600BB6998 /* AppDelegate.swift */; };
+		CC2AA18B1BE3181600BB6998 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2AA18A1BE3181600BB6998 /* ViewController.swift */; };
+		CC2AA18E1BE3181600BB6998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2AA18C1BE3181600BB6998 /* Main.storyboard */; };
+		CC2AA1901BE3181600BB6998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2AA18F1BE3181600BB6998 /* Assets.xcassets */; };
+		CC2AA1931BE3181600BB6998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2AA1911BE3181600BB6998 /* LaunchScreen.storyboard */; };
+		CC2AA19E1BE3181600BB6998 /* KeyChainTest1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2AA19D1BE3181600BB6998 /* KeyChainTest1Tests.swift */; };
+		CC2AA1A91BE3181600BB6998 /* KeyChainTest1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2AA1A81BE3181600BB6998 /* KeyChainTest1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC2AA19A1BE3181600BB6998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC2AA17D1BE3181600BB6998 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC2AA1841BE3181600BB6998;
+			remoteInfo = KeyChainTest1;
+		};
+		CC2AA1A51BE3181600BB6998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC2AA17D1BE3181600BB6998 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC2AA1841BE3181600BB6998;
+			remoteInfo = KeyChainTest1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F2714C896FC237F6634F9D9 /* Pods-KeyChainTest1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyChainTest1.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeyChainTest1/Pods-KeyChainTest1.release.xcconfig"; sourceTree = "<group>"; };
+		63DCDC9C77D109404427D723 /* Pods-KeyChainTest1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyChainTest1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeyChainTest1/Pods-KeyChainTest1.debug.xcconfig"; sourceTree = "<group>"; };
+		CA86CE5D0F3CE3CE82622AF6 /* libPods-KeyChainTest1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KeyChainTest1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2AA1851BE3181600BB6998 /* KeyChainTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyChainTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2AA1881BE3181600BB6998 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC2AA18A1BE3181600BB6998 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC2AA18D1BE3181600BB6998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC2AA18F1BE3181600BB6998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC2AA1921BE3181600BB6998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC2AA1941BE3181600BB6998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2AA1991BE3181600BB6998 /* KeyChainTest1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyChainTest1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2AA19D1BE3181600BB6998 /* KeyChainTest1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainTest1Tests.swift; sourceTree = "<group>"; };
+		CC2AA19F1BE3181600BB6998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2AA1A41BE3181600BB6998 /* KeyChainTest1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyChainTest1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2AA1A81BE3181600BB6998 /* KeyChainTest1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainTest1UITests.swift; sourceTree = "<group>"; };
+		CC2AA1AA1BE3181600BB6998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2AA1F21BE31A5300BB6998 /* BridgeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		CC2AA1F41BE31CC800BB6998 /* KeyChainTest1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KeyChainTest1.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC2AA1821BE3181600BB6998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44350989C20F0302410E5346 /* libPods-KeyChainTest1.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2AA1961BE3181600BB6998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2AA1A11BE3181600BB6998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		172D6BB5604F51E6BAAC7F4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA86CE5D0F3CE3CE82622AF6 /* libPods-KeyChainTest1.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A49D8FC6D8BA4050FDAB1E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63DCDC9C77D109404427D723 /* Pods-KeyChainTest1.debug.xcconfig */,
+				3F2714C896FC237F6634F9D9 /* Pods-KeyChainTest1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC2AA17C1BE3181600BB6998 = {
+			isa = PBXGroup;
+			children = (
+				CC2AA1871BE3181600BB6998 /* KeyChainTest1 */,
+				CC2AA19C1BE3181600BB6998 /* KeyChainTest1Tests */,
+				CC2AA1A71BE3181600BB6998 /* KeyChainTest1UITests */,
+				CC2AA1861BE3181600BB6998 /* Products */,
+				1A49D8FC6D8BA4050FDAB1E0 /* Pods */,
+				172D6BB5604F51E6BAAC7F4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC2AA1861BE3181600BB6998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC2AA1851BE3181600BB6998 /* KeyChainTest1.app */,
+				CC2AA1991BE3181600BB6998 /* KeyChainTest1Tests.xctest */,
+				CC2AA1A41BE3181600BB6998 /* KeyChainTest1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC2AA1871BE3181600BB6998 /* KeyChainTest1 */ = {
+			isa = PBXGroup;
+			children = (
+				CC2AA1F41BE31CC800BB6998 /* KeyChainTest1.entitlements */,
+				CC2AA1881BE3181600BB6998 /* AppDelegate.swift */,
+				CC2AA18A1BE3181600BB6998 /* ViewController.swift */,
+				CC2AA18C1BE3181600BB6998 /* Main.storyboard */,
+				CC2AA18F1BE3181600BB6998 /* Assets.xcassets */,
+				CC2AA1911BE3181600BB6998 /* LaunchScreen.storyboard */,
+				CC2AA1941BE3181600BB6998 /* Info.plist */,
+				CC2AA1F21BE31A5300BB6998 /* BridgeHeader.h */,
+			);
+			path = KeyChainTest1;
+			sourceTree = "<group>";
+		};
+		CC2AA19C1BE3181600BB6998 /* KeyChainTest1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CC2AA19D1BE3181600BB6998 /* KeyChainTest1Tests.swift */,
+				CC2AA19F1BE3181600BB6998 /* Info.plist */,
+			);
+			path = KeyChainTest1Tests;
+			sourceTree = "<group>";
+		};
+		CC2AA1A71BE3181600BB6998 /* KeyChainTest1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC2AA1A81BE3181600BB6998 /* KeyChainTest1UITests.swift */,
+				CC2AA1AA1BE3181600BB6998 /* Info.plist */,
+			);
+			path = KeyChainTest1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC2AA1841BE3181600BB6998 /* KeyChainTest1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2AA1AD1BE3181600BB6998 /* Build configuration list for PBXNativeTarget "KeyChainTest1" */;
+			buildPhases = (
+				167C9DA89A9CE7495CB3B01B /* Check Pods Manifest.lock */,
+				CC2AA1811BE3181600BB6998 /* Sources */,
+				CC2AA1821BE3181600BB6998 /* Frameworks */,
+				CC2AA1831BE3181600BB6998 /* Resources */,
+				15588EBFF95FA37D91C5740E /* Embed Pods Frameworks */,
+				D9765A0A289927E6C937BA22 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyChainTest1;
+			productName = KeyChainTest1;
+			productReference = CC2AA1851BE3181600BB6998 /* KeyChainTest1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC2AA1981BE3181600BB6998 /* KeyChainTest1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2AA1B01BE3181600BB6998 /* Build configuration list for PBXNativeTarget "KeyChainTest1Tests" */;
+			buildPhases = (
+				CC2AA1951BE3181600BB6998 /* Sources */,
+				CC2AA1961BE3181600BB6998 /* Frameworks */,
+				CC2AA1971BE3181600BB6998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC2AA19B1BE3181600BB6998 /* PBXTargetDependency */,
+			);
+			name = KeyChainTest1Tests;
+			productName = KeyChainTest1Tests;
+			productReference = CC2AA1991BE3181600BB6998 /* KeyChainTest1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC2AA1A31BE3181600BB6998 /* KeyChainTest1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2AA1B31BE3181600BB6998 /* Build configuration list for PBXNativeTarget "KeyChainTest1UITests" */;
+			buildPhases = (
+				CC2AA1A01BE3181600BB6998 /* Sources */,
+				CC2AA1A11BE3181600BB6998 /* Frameworks */,
+				CC2AA1A21BE3181600BB6998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC2AA1A61BE3181600BB6998 /* PBXTargetDependency */,
+			);
+			name = KeyChainTest1UITests;
+			productName = KeyChainTest1UITests;
+			productReference = CC2AA1A41BE3181600BB6998 /* KeyChainTest1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC2AA17D1BE3181600BB6998 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Tetsuya Shiraishi";
+				TargetAttributes = {
+					CC2AA1841BE3181600BB6998 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 2QT3U3H8K8;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					CC2AA1981BE3181600BB6998 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CC2AA1841BE3181600BB6998;
+					};
+					CC2AA1A31BE3181600BB6998 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CC2AA1841BE3181600BB6998;
+					};
+				};
+			};
+			buildConfigurationList = CC2AA1801BE3181600BB6998 /* Build configuration list for PBXProject "KeyChainTest1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC2AA17C1BE3181600BB6998;
+			productRefGroup = CC2AA1861BE3181600BB6998 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC2AA1841BE3181600BB6998 /* KeyChainTest1 */,
+				CC2AA1981BE3181600BB6998 /* KeyChainTest1Tests */,
+				CC2AA1A31BE3181600BB6998 /* KeyChainTest1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC2AA1831BE3181600BB6998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2AA1931BE3181600BB6998 /* LaunchScreen.storyboard in Resources */,
+				CC2AA1901BE3181600BB6998 /* Assets.xcassets in Resources */,
+				CC2AA18E1BE3181600BB6998 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2AA1971BE3181600BB6998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2AA1A21BE3181600BB6998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15588EBFF95FA37D91C5740E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KeyChainTest1/Pods-KeyChainTest1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		167C9DA89A9CE7495CB3B01B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9765A0A289927E6C937BA22 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KeyChainTest1/Pods-KeyChainTest1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC2AA1811BE3181600BB6998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2AA18B1BE3181600BB6998 /* ViewController.swift in Sources */,
+				CC2AA1891BE3181600BB6998 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2AA1951BE3181600BB6998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2AA19E1BE3181600BB6998 /* KeyChainTest1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2AA1A01BE3181600BB6998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2AA1A91BE3181600BB6998 /* KeyChainTest1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC2AA19B1BE3181600BB6998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC2AA1841BE3181600BB6998 /* KeyChainTest1 */;
+			targetProxy = CC2AA19A1BE3181600BB6998 /* PBXContainerItemProxy */;
+		};
+		CC2AA1A61BE3181600BB6998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC2AA1841BE3181600BB6998 /* KeyChainTest1 */;
+			targetProxy = CC2AA1A51BE3181600BB6998 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC2AA18C1BE3181600BB6998 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC2AA18D1BE3181600BB6998 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC2AA1911BE3181600BB6998 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC2AA1921BE3181600BB6998 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC2AA1AB1BE3181600BB6998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC2AA1AC1BE3181600BB6998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC2AA1AE1BE3181600BB6998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63DCDC9C77D109404427D723 /* Pods-KeyChainTest1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyChainTest1/KeyChainTest1.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = KeyChainTest1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mushikago.KeyChainTest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/KeyChainTest1/BridgeHeader.h";
+			};
+			name = Debug;
+		};
+		CC2AA1AF1BE3181600BB6998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F2714C896FC237F6634F9D9 /* Pods-KeyChainTest1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyChainTest1/KeyChainTest1.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = KeyChainTest1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mushikago.KeyChainTest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/KeyChainTest1/BridgeHeader.h";
+			};
+			name = Release;
+		};
+		CC2AA1B11BE3181600BB6998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KeyChainTest1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mushikago.KeyChainTest1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyChainTest1.app/KeyChainTest1";
+			};
+			name = Debug;
+		};
+		CC2AA1B21BE3181600BB6998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KeyChainTest1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mushikago.KeyChainTest1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyChainTest1.app/KeyChainTest1";
+			};
+			name = Release;
+		};
+		CC2AA1B41BE3181600BB6998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KeyChainTest1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mushikago.KeyChainTest1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyChainTest1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CC2AA1B51BE3181600BB6998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KeyChainTest1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mushikago.KeyChainTest1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyChainTest1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC2AA1801BE3181600BB6998 /* Build configuration list for PBXProject "KeyChainTest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2AA1AB1BE3181600BB6998 /* Debug */,
+				CC2AA1AC1BE3181600BB6998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2AA1AD1BE3181600BB6998 /* Build configuration list for PBXNativeTarget "KeyChainTest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2AA1AE1BE3181600BB6998 /* Debug */,
+				CC2AA1AF1BE3181600BB6998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2AA1B01BE3181600BB6998 /* Build configuration list for PBXNativeTarget "KeyChainTest1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2AA1B11BE3181600BB6998 /* Debug */,
+				CC2AA1B21BE3181600BB6998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2AA1B31BE3181600BB6998 /* Build configuration list for PBXNativeTarget "KeyChainTest1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2AA1B41BE3181600BB6998 /* Debug */,
+				CC2AA1B51BE3181600BB6998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC2AA17D1BE3181600BB6998 /* Project object */;
+}
